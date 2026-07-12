@@ -1,2 +1,2 @@
 # Basketball-Analytics
-A computer vision project using YOLO model to pull out stats from basketball game clips.
+This is a computer vision pipeline designed to track and analyze basketball gameplay in real-time. Leveraging the YOLO (You Only Look Once) object detection architecture, this project processes game footage to identify and map critical on-court elements, including the ball, players, the hoop, and referee signals. By prioritizing high-speed, multi-object tracking, this system bridges the gap between raw video data and actionable sports analytics, enabling automated shot tracking, player spacing analysis, and possession statistics without the need for manual tagging or specialized hardware sensors.
