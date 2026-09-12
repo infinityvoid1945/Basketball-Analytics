@@ -35,8 +35,8 @@ The program will print in the console what you need to put into IMAGE_POINTS:
 Now, paste what you have in the console into your IMAGE_POINTS and make CALIBRATE_PICK **False**:
 <img width="701" height="56" alt="image" src="https://github.com/user-attachments/assets/a8a2968e-aed8-401e-81af-66cea4eb14ed" />
 
-After setting everything up, the model should start to analyze your footage and provide you a video, a csv file, and a table informing you about your shot accuracy. A sample would look like what I have below:
-The video footage:
+After setting everything up, the model should start to analyze your footage and provide you a video, a csv file, and a table informing you about your shot accuracy. A sample would look like what I have below: <br/>
+The video footage:<br/>
 <img width="1280" height="720" alt="annotated_output3_1" src="https://github.com/user-attachments/assets/ae9d98f0-f071-4c72-bdbc-ed10a327cd1b" />
 
 
