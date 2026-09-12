@@ -14,9 +14,9 @@ Before using this tool, you should film footages a basketball game. Note that yo
 Downlod both "cvxmodel.pt" and "app.py"
 
 ## 2. Modify path
-Open app.py with an IDE. Edit MODEL_PATH by pasting where cvxmodel.pt is saved. For instance, if my cvxmodel.pt is saved at "C:\User\Downloads\cvxmodel.pt," then paste the directory into MODEL_PATH. Similarly, paste your footage path into app.py.
-It would look something like this:
-<img width="490" height="62" alt="image" src="https://github.com/user-attachments/assets/7bbe4550-f96c-4e68-9bb2-87c2e30da38a" />
+Open app.py with an IDE. Edit MODEL_PATH by pasting where cvxmodel.pt is saved. For instance, if my cvxmodel.pt is saved at "C:\User\Downloads\cvxmodel.pt," then paste the directory into MODEL_PATH. Similarly, paste your footage path into app.py. <br/>
+It would look something like this: <br/>
+<img width="490" height="62" alt="image" src="https://github.com/user-attachments/assets/7bbe4550-f96c-4e68-9bb2-87c2e30da38a" /> <br/>
 **Please note that I am using forward slashes here. If you are using paths with backslashes, please remove the r in front of the double quotes.**
 
 ## 3. Run app.py
