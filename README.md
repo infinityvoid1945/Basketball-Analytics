@@ -40,7 +40,7 @@ The video footage:
 <img width="1280" height="720" alt="annotated_output3_1" src="https://github.com/user-attachments/assets/ae9d98f0-f071-4c72-bdbc-ed10a327cd1b" />
 
 
-The table:
+The table: <br/>
 <img width="582" height="311" alt="屏幕截图 2026-06-23 101155" src="https://github.com/user-attachments/assets/8a737776-3019-463e-a294-b0aad2f98e9b" />
 
 
