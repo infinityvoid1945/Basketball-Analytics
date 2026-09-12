@@ -12,8 +12,8 @@ OUTPUT_CSV   = "shot_zone_stats.csv"
 CONF = 0.2
 PLAYER, BALL, RIM, BACKBOARD = 0, 1, 2, 3
 
-CALIBRATE_PICK = False
-IMAGE_POINTS = [(2716, 1712), (3215, 2150), (1384, 1815), (942, 2056)]
+CALIBRATE_PICK = True
+IMAGE_POINTS = []
 
 COURT_POINTS = [(-22.0, -5.25), (22.0, -5.25), (-8.0, 13.75), (8.0, 13.75)]
 
