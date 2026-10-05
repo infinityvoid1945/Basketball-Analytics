@@ -8,14 +8,18 @@ After running the model, it will print a table in the console showing the field 
 This project uses YOLO11x model and is trained using the train.py script. The four classes used are players, ball, rim, and backboard (in order). 
 
 # Dependencies
+To run this, you will need the following libraries downloaded in your IDE:
+- opencv-python
+- numpy
+- ultralytics
 
 # Model accuracy
 Based on my own test cases, this is the accuracy: <br/>
 <img width="962" height="175" alt="image" src="https://github.com/user-attachments/assets/709aaf4e-ab2b-41d6-acb6-3cd664dfb605" /> <br/>
-True positive = shots detected made && shot made in the video
-False positive = shots detected made && shot missed / did not take place in the video
-True negative = shots detected missed && shot missed in the video
-False negative = shots detected made && shot is made in the video
+True positive = shots detected made && shot made in the video <br/>
+False positive = shots detected made && shot missed / did not take place in the video<br/>
+True negative = shots detected missed && shot missed in the video<br/>
+False negative = shots detected made && shot is made in the video<br/>
 
 # How to use it
 ## 0. Preparing data
