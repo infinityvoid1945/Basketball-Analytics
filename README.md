@@ -3,9 +3,8 @@ This is a computer vision pipeline designed to track and analyze basketball game
 After running the model, it will print a table in the console showing the field goal percentage from each area of the court.
 
 # How this works
-
-# How this is trained
 This project uses YOLO11x model and is trained using the train.py script. The four classes used are players, ball, rim, and backboard (in order). 
+By tracking the ball's past positions, 
 
 # Dependencies
 To run this, you will need the following libraries downloaded in your IDE:
