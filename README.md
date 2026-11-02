@@ -17,7 +17,7 @@ Training uses cost-sensitive learning (some mistakes are punished more than othe
 
 1. **Track the ball.** The tracker predicts the ball's next position from its velocity and gravity. A detection far from that prediction isn't trusted until a second one confirms it. If the ball briefly goes undetected, the tracker keeps following the predicted path.
 2. **Judge the shot.** A shot counts as made if the ball goes above the top of the rim and then drops down through it. This is checked on the 2D camera image, so a ball passing behind the rim can look like a make.
-3. **Find the zone.** The shooter (the last player holding the ball) has their foot position mapped onto a top-down court diagram using a homography. The homography is built from four court landmarks clicked on the first frame, so the camera has to stay still. The position is then sorted into an NBA shot zone.
+3. **Find the zone.** The shooter (the last player holding the ball) has their foot position mapped onto a top-down court diagram using a homography. The homography is built from four court landmarks clicked on the first frame, so the camera has to stay still. The position is then sorted into a shot zone.
 
 The output is an annotated video and a CSV of FG% by zone.
 
